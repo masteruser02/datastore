@@ -1,0 +1,24 @@
+{
+	"name": "target_foreach",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsSqlDb1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"tbl": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": {
+				"value": "@dataset().tbl",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

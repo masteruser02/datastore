@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-abhishek-learn",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "68772f3a-6c69-4f7e-8a8a-2ae19a529dff",
+		"tenantId": "6da465ab-fd57-4e02-b79f-8070e2069fc6"
+	}
+}

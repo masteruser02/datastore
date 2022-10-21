@@ -1,0 +1,17 @@
+{
+	"name": "azure_scdsql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsSqlDb1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "source_cust"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

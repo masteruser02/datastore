@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_64b",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsSqlDb1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "newtable"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

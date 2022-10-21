@@ -1,0 +1,19 @@
+{
+	"name": "MetadataDrivenCopyTask_kyo_ControlDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedService1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "MetadataDrivenCopyTask_kyo_20221010"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "MainControlTable_kyo"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
