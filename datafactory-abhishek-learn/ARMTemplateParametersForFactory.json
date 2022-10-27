@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory-abhishek-learn"
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureSqlDatabasedb2_connectionString": {
+			"value": ""
+		},
+		"kvlsdb_connectionString": {
+			"value": ""
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"lsAzureSynapseAnalytics1_connectionString": {
+			"value": ""
+		},
+		"lsSqlDb1_connectionString": {
+			"value": ""
+		},
+		"lsdatalake_accountKey": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://kvabhinw.vault.azure.net/"
+		},
+		"lsdatalake_properties_typeProperties_url": {
+			"value": "https://dlusadf.dfs.core.windows.net/"
+		}
+	}
+}
