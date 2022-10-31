@@ -31,6 +31,12 @@
 		},
 		"lsdatalake_properties_typeProperties_url": {
 			"value": "https://dlusadf.dfs.core.windows.net/"
+		},
+		"trigger1_properties_pipeline6_parameters_fname": {
+			"value": "triggerbody().filename"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/a0a3c3f0-e088-4ef9-9905-565052d4d86f/resourceGroups/adf/providers/Microsoft.Storage/storageAccounts/dlusadf"
 		}
 	}
 }
