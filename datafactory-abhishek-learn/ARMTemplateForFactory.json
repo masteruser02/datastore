@@ -2955,11 +2955,6 @@
 					"elapsedTimeMetric": {},
 					"cancelAfter": {}
 				},
-				"parameters": {
-					"dir": {
-						"type": "string"
-					}
-				},
 				"folder": {
 					"name": "test"
 				},
