@@ -50,7 +50,13 @@
 				"inputs": [
 					{
 						"referenceName": "pip6_source",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"fname": {
+								"value": "@pipeline().parameters.fname",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
