@@ -1,0 +1,32 @@
+{
+	"name": "pip6_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsdatalake",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"fname": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().fname",
+					"type": "Expression"
+				},
+				"folderPath": "input",
+				"fileSystem": "data"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
