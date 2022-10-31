@@ -88,6 +88,7 @@
 									"type": "AzureSqlSink",
 									"writeBehavior": "insert",
 									"sqlWriterUseTableLock": false,
+									"tableOption": "autoCreate",
 									"disableMetricsCollection": false
 								},
 								"enableStaging": false,
@@ -118,7 +119,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"tbl": {
-											"value": "@item().name",
+											"value": "@concat(item().name,'3110')",
 											"type": "Expression"
 										}
 									}
