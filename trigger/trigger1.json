@@ -1,7 +1,9 @@
 {
 	"name": "trigger1",
 	"properties": {
-		"annotations": [],
+		"annotations": [
+			"fname"
+		],
 		"runtimeState": "Stopped",
 		"pipelines": [],
 		"type": "BlobEventsTrigger",
