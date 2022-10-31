@@ -218,7 +218,6 @@
 							"value": "@dataset().fname",
 							"type": "Expression"
 						},
-						"folderPath": "input",
 						"fileSystem": "data"
 					},
 					"columnDelimiter": ",",
