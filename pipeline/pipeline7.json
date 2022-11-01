@@ -17,7 +17,13 @@
 				"typeProperties": {
 					"dataflow": {
 						"referenceName": "dataflow4",
-						"type": "DataFlowReference"
+						"type": "DataFlowReference",
+						"parameters": {
+							"price": {
+								"value": "@pipeline().parameters.price",
+								"type": "Expression"
+							}
+						}
 					},
 					"compute": {
 						"coreCount": 8,
