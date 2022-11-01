@@ -8,6 +8,12 @@
 		"AzureDatabricks1_accessToken": {
 			"value": ""
 		},
+		"AzureDatabricks2_accessToken": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabasedb2_connectionString": {
 			"value": ""
 		},
@@ -28,6 +34,9 @@
 		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://kvabhinw.vault.azure.net/"
+		},
+		"AzureKeyVault2_properties_typeProperties_baseUrl": {
+			"value": "https://kvadfnew.vault.azure.net/"
 		},
 		"lsdatalake_properties_typeProperties_url": {
 			"value": "https://dlusadf.dfs.core.windows.net/"
